@@ -1,0 +1,210 @@
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.592)), url(images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 88vh;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  background-image: linear-gradient(rgba(65, 45, 45, 0.668), rgba(0, 0, 0, 0.592)), url(images/banner.jpg);
+}
+
+.navbar-expand-lg {
+  background: transparent;
+}
+
+.nav-link {
+  margin: 0 0.7em;
+}
+
+.navbar img {
+  width: 70%;
+  background: transparent;
+  border: none;
+  padding-left: 1em
+}
+
+.header h1 {
+  margin-bottom: 0.7em;
+  letter-spacing: 2px;
+  padding-top: 13%;
+}
+
+.header p {
+  padding: 0 1.3em;
+  letter-spacing: 0.2em;
+  margin-bottom: 2.5em;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  padding: 0.7em;
+  border: 2px solid white;
+}
+
+.header a:hover {
+  background-color: rgb(77, 26, 6);
+  border: none;
+}
+
+.course,
+.campus,
+.facilities,
+.reviews,
+.about {
+  padding-top: 100px;
+}
+
+.course p,
+.campus p,
+.facilities p,
+.reviews p {
+  margin-bottom: 3em;
+}
+
+.course .row {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.course .row .card {
+  margin: 0.1em auto;
+}
+
+.carousel {
+  width: 70%;
+  margin: 25px auto;
+  padding: 0.2em;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 75vh;
+}
+
+.card-deck {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-deck .card img {
+  width: 90%;
+  margin: 1em auto;
+  border-radius: 0.7em;
+}
+
+.reviews .row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.avatar img {
+  margin-top: 1em;
+  width: 30%;
+}
+
+#ctu {
+  padding-top: 0.7em;
+}
+
+.ctu {
+  margin: 3em auto 0;
+  text-align: center;
+  border-radius: 7px;
+  width: 80%;
+  padding: 5em 3em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.516)), url(images/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.ctu h3 {
+  color: white;
+  letter-spacing: 0.1em;
+  margin-bottom: 2.2em;
+  font-size: 1.5em;
+}
+
+.ctu a {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  padding: 0.8em;
+  font-size: 0.8em;
+  border: 2px solid white;
+}
+
+.ctu a:hover {
+  background-color: rgb(77, 26, 6);
+  border: none;
+}
+
+.about a:hover {
+  text-decoration: none;
+}
+
+.about-head {
+  height: 50vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.about-head h2 {
+  padding-top: 3em;
+}
+
+.about-content {
+  padding-top: 80px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-content a {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  font-size: 14px;
+  padding: 12px 30px;
+  border: 1px solid #f44336;
+  background: transparent;
+  color: #f44336;
+  transition: 0.1s;
+}
+
+.about-content a:hover {
+  background-color: rgb(220, 84, 34);
+  border: none;
+  color: #fff;
+}
+
+
+/* Media Query - Tablet or Lower */
+@media screen and (max-width:780px) {
+  .navbar-dark {
+    display: flex;
+    justify-content: start;
+  }
+
+  .navbar-light {
+    display: flex;
+    justify-content: start;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  nav a img {
+    display: none;
+  }
+}
