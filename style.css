@@ -207,4 +207,8 @@
   nav a img {
     display: none;
   }
+  
+  .header h1 {
+    padding-top: 15%;
+  }
 }
